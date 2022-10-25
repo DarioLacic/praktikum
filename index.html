@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum</title>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <h1>Praktikum</h1>
+    <p id="time"></p>
+    <p id="demo">Praktikum <br> 25.10</p>
+  <div class = "button"> <a href = https://www.krankikom.de> Link</a></div>
+    <div id="picture" class="picture"><img src="https://www.krankikom.de/wp-content/uploads/2020/02/Keyvisual_Ipad-Iphone-Text.png"alt ="Krankikom" width="300" height="300">
+    </div>
+<button type="button"
+   onclick="document.getElementById ('demo').style.fontSize='35px'"> change Font Size</button>
+   <button type="button"
+   onclick = "document.getElementById ('demo').style.fontSize='20px'" > change Font Size back</button>
+  <button type="button" onclick= "document.getElementById('picture').style.display = 'none'";>Hide Picture</button>
+  <button type="button" onclick= "document.getElementById('picture').style.display = 'block'";>Show Picture</button>
+  <button type="button" onclick="myFunction()">change text</button>
+  <button type="button" onclick="myFunction1()">reset text</button>
+  <button onclick="window.print()">Print this page</button>
+  <button type="button"
+  onclick="document.getElementById('time').innerHTML = Date()">
+  Click me to display Date and Time.</button>
+  
+  
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(229, 227, 231);
+
+}
+
+h1 {
+font-size: 35px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+.picture {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+a {
+text-decoration: none;
+font-weight:normal;
+background-color: blue;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+padding: 30px;
+font-size: 25px;
+}
+.button {
+    text-align: center;
+}
+a:hover {
+    background-color: blue;
+    opacity: 0.6;
+}
